@@ -30,7 +30,7 @@ const { defaultTransition } = useTailwindConfig();
 
     <!-- menu session -->
     <div class="mt-2 space-y-3">
-      <SidebarLeftSessionTab active>
+      <SidebarLeftSectionTab active>
         <template v-slot:icon>
           <!-- home icon -->
           <HomeIcon />
@@ -39,9 +39,9 @@ const { defaultTransition } = useTailwindConfig();
           <!-- home Label -->
           Home
         </template>
-      </SidebarLeftSessionTab>
+      </SidebarLeftSectionTab>
 
-      <SidebarLeftSessionTab>
+      <SidebarLeftSectionTab>
         <template v-slot:icon>
           <!-- explore icon -->
           <HashtagIcon />
@@ -50,9 +50,9 @@ const { defaultTransition } = useTailwindConfig();
           <!-- explore Label -->
           Explore
         </template>
-      </SidebarLeftSessionTab>
+      </SidebarLeftSectionTab>
 
-      <SidebarLeftSessionTab>
+      <SidebarLeftSectionTab>
         <template v-slot:icon>
           <!-- notification icon -->
           <BellIcon />
@@ -61,9 +61,9 @@ const { defaultTransition } = useTailwindConfig();
           <!-- notification Label -->
           Notifications
         </template>
-      </SidebarLeftSessionTab>
+      </SidebarLeftSectionTab>
 
-      <SidebarLeftSessionTab>
+      <SidebarLeftSectionTab>
         <template v-slot:icon>
           <!-- message icon -->
           <InboxIcon />
@@ -72,9 +72,9 @@ const { defaultTransition } = useTailwindConfig();
           <!-- message Label -->
           Messages
         </template>
-      </SidebarLeftSessionTab>
+      </SidebarLeftSectionTab>
 
-      <SidebarLeftSessionTab>
+      <SidebarLeftSectionTab>
         <template v-slot:icon>
           <!-- bookmark icon -->
           <BookmarkIcon />
@@ -83,9 +83,9 @@ const { defaultTransition } = useTailwindConfig();
           <!-- bookmark Label -->
           Bookmarks
         </template>
-      </SidebarLeftSessionTab>
+      </SidebarLeftSectionTab>
 
-      <SidebarLeftSessionTab>
+      <SidebarLeftSectionTab>
         <template v-slot:icon>
           <!-- list icon -->
           <DocumentTextIcon />
@@ -94,9 +94,9 @@ const { defaultTransition } = useTailwindConfig();
           <!-- list Label -->
           Lists
         </template>
-      </SidebarLeftSessionTab>
+      </SidebarLeftSectionTab>
 
-      <SidebarLeftSessionTab>
+      <SidebarLeftSectionTab>
         <template v-slot:icon>
           <!-- user icon -->
           <UserIcon />
@@ -105,9 +105,9 @@ const { defaultTransition } = useTailwindConfig();
           <!-- user Label -->
           Profile
         </template>
-      </SidebarLeftSessionTab>
+      </SidebarLeftSectionTab>
 
-      <SidebarLeftSessionTab>
+      <SidebarLeftSectionTab>
         <template v-slot:icon>
           <!-- more icon -->
           <EllipsisHorizontalCircleIcon />
@@ -116,7 +116,7 @@ const { defaultTransition } = useTailwindConfig();
           <!-- user Label -->
           More
         </template>
-      </SidebarLeftSessionTab>
+      </SidebarLeftSectionTab>
     </div>
   </div>
 </template>
